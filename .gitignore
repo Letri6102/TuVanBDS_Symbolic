@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+env/
+.env/
+.venv/
+.venv_runtime/
+venv/
+venv_runtime/
+
+# --- IDE & OS ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Data & Outputs ---
+# Bỏ qua các file dữ liệu lớn, file lưu trữ và file kết quả
+data/*.csv
+data/*.json
+data/*.parquet
+Archive.zip
+outputs/
+*.log
+
+# --- Notebooks ---
+.ipynb_checkpoints/
